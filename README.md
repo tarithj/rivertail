@@ -1,29 +1,17 @@
-# Vite Solid Template
+# Rivertail
+A website for a fictional software development company that specializes in Ai/ML software. Created within 16 hours.
 
-A Solid Vite starter template.
-
-## Preview
-
-![preview.jpg](preview.jpg)
-
-## Getting Started
-
-```bash
-npx degit andreecy/vite-solid vite-solid-app
-
-cd vite-solid-app
+## Running the website
+* Install [pnpm](https://pnpm.io/installation)
+* Install dependencies
 ```
-
-## Available scripts
-
-```bash
-npm run dev
+pnpm i
 ```
-
-```bash
-npm run build
+* Build for production
 ```
-
-```bash
-npm run preview
+pnpm run build
+``` 
+* Preview website
+```
+pnpm run preview
 ```
