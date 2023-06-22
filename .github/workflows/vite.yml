@@ -72,7 +72,7 @@ jobs:
         
       - name: Build with Vite
         run: |
-          pnpm run build
+          VITE_BASE="/rivertail" pnpm run build
         working-directory: ${{ env.BUILD_PATH }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
