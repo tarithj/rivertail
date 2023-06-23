@@ -8,7 +8,7 @@ const InvestorsPageBody = () => {
     return (        
       <div className="h-full pt-20 flex text-left items-end justify-start w-3/4 lg:w-2/4">
           <p className="font-medium text-3xl lg:text-6xl text-black">
-            Rivertail is a leading the software development industry through AI.
+            Rivertail is leading the software development industry through AI.
           </p>
       </div>
     )
